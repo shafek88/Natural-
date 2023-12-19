@@ -425,6 +425,9 @@ transform :translate(-1400px)  ;
   .race img:nth-child(2){
     bottom:13%;
   }
+race {
+    background-position: center 75%;
+  }
  }
 
  /* end race */
