@@ -364,7 +364,7 @@ ul {
     transform : translate(0px)  ;
   }
 100%{
-transform :translate(-1250px)  ;
+transform :translate(-1400px)  ;
 }
 }
  .race img:nth-child(2){
@@ -398,15 +398,16 @@ transform :translate(-1250px)  ;
   animation:dog 10s linear infinite ;
   animation-delay: 6s;
  }
- @media (max-width: 767px){
+
+ @media (max-width: 990px){
   .race img:nth-child(5),
   .race img:nth-child(4),
   .race img:nth-child(3),
   .race img:nth-child(2){
-    bottom: 90px;
+    bottom: 100px;
   }
  }
- @media (min-width: 990px){
+ @media (min-width: 1200px){
   .race img:nth-child(5),
   .race img:nth-child(4),
   .race img:nth-child(3),
@@ -724,7 +725,7 @@ img.hen {
 .boat {
   width:350px;
   position: absolute;
-  bottom: 200px;
+  bottom: 150px;
   left:50%;
   transform: translateX(-50%);
 }
