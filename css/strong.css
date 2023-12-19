@@ -403,7 +403,7 @@ transform :translate(-1250px)  ;
   .race img:nth-child(4),
   .race img:nth-child(3),
   .race img:nth-child(2){
-    bottom: 130px;
+    bottom: 90px;
   }
  }
  @media (min-width: 990px){
@@ -435,13 +435,13 @@ transform :translate(-1250px)  ;
   animation:dog 10s linear infinite ;
   z-index: 5;
   position: absolute;
-  top: 80px;
+  top:0px;
      }
 img.cow {
   position: absolute;
-  left: 13px;
-  bottom: 122px;
-  width: 89px
+  left: -4px;
+  bottom: 90px;
+  width: 78px;
 }
 img.dog {
   animation:dog 10s linear infinite ;
@@ -601,9 +601,11 @@ img.hen {
 }
 .highway {
   height: 200px;
-  width: 1000vh;
+  width: 10000vh;
   display: block;
   background-image: url(../images/road.jpg);
+  background-position: center center;
+  margin: 0px;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -694,7 +696,8 @@ img.hen {
   background-image: url(../images/background.jpg);
   position:relative;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  margin: 0px;
   overflow: hidden;
 }
 .ocean {
@@ -805,6 +808,9 @@ img.hen {
   }
   /* End Video */
    /* Start Contact */
+   .new-contact .main-heading {
+    padding-top: 30px;
+}
    .contact{
     padding-top: var(--section-padding, 60px);
     padding-top: var(--section-padding, 60px);
