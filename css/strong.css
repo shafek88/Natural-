@@ -347,7 +347,7 @@ ul {
     position: relative;
     overflow: hidden;
     width: 100%;
-    background-position: center center;
+    background-position: center 75%;
     margin: 0px;
     background-repeat: no-repeat;
 }
