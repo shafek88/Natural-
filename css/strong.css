@@ -412,9 +412,18 @@ transform :translate(-1400px)  ;
   .race img:nth-child(4),
   .race img:nth-child(3),
   .race img:nth-child(2){
-    bottom: 45px;
+    bottom: 0px;
   }
  }
+  @media (max-width: 1200px){
+  .race img:nth-child(5),
+  .race img:nth-child(4),
+  .race img:nth-child(3),
+  .race img:nth-child(2){
+    bottom:13%;
+  }
+ }
+
  /* end race */
    /* Star Farm */
    .new-farm{
@@ -725,7 +734,7 @@ img.hen {
 .boat {
   width:350px;
   position: absolute;
-  bottom: 150px;
+  bottom: 75px;
   left:50%;
   transform: translateX(-50%);
 }
