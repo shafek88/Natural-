@@ -407,12 +407,15 @@ transform :translate(-1400px)  ;
     bottom: 100px;
   }
  }
- @media (min-width: 1200px){
+@media (min-width: 1200px){
   .race img:nth-child(5),
   .race img:nth-child(4),
   .race img:nth-child(3),
   .race img:nth-child(2){
-    bottom: 9%;
+    bottom: 13%;
+  }
+  .race {
+    background-position: center 75%;
   }
  }
   @media (max-width: 1200px){
